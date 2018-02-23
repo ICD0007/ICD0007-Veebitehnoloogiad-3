@@ -1,0 +1,33 @@
+﻿h1 {
+    visibility: hidden;
+}
+
+h2 {
+    display: none;
+}
+
+li {
+    display: inline;
+}
+
+strong {
+    display: block;
+
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee
+}
+
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 18px
+    }
+
+        ul.breadcrumb li + li:before {
+            padding: 8px;
+            color: black;
+            content: "/\00a0"
+        }
